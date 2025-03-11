@@ -7,7 +7,12 @@ const ListaSuspensa=(props)=>{
         <div className="lista-suspensa">
             <label>{props.label}</label>
             <select onChange={aoEscolhido}>
-            { props.itens.map( item => <option key={item}>{item}</option> ) }
+            { props.itens.map( item => {
+            let valorItem=item;
+            if (typeof item !="string") valorItem=item.nome;
+            return(
+            <option key={valorItem}>{valorItem}</option>);
+         }) }
             </select>
         </div>
     )

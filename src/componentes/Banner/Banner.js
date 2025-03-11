@@ -3,7 +3,7 @@ import "./Banner.css"
 function Banner() {
     return (
         <header className="bannerMavi">
-            <img src="/imagens/bannerMavi3.png" alt="banner da Mavi Tech" />
+            <img src="/imagens/bannerMavi2.png" alt="banner da Mavi Tech" />
 
         </header>
 

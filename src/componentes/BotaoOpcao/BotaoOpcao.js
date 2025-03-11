@@ -10,6 +10,7 @@ const BotaoOpcao=(props)=>{
                         <input
                             type="radio"
                             value={item}
+                            name='opcao'
                             onChange={aoEscolhido}
                         />
                         {item}

@@ -1,5 +1,5 @@
 .botao{
-    background-color:  #d01a1a;
+    background-color: rgb(212, 82, 6) /*#ee1000*/;
     color: white;
     font-size:20px;
     border-radius: 15px;
@@ -10,7 +10,7 @@
     
 }
 .botao:hover{
-    background-color:#A81717
+    background-color:rgb(233, 100, 23)
 }
 .botao:active {
     transform: scale(0.85);
